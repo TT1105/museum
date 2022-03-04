@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+  </head>
+  <body>
+    <header class="  text-white">
+      <div class="container tops">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/"
+            class="d-flex align-items-center me-lg-auto mb-2 mb-lg-0 text-white text-decoration-none d-none d-md-block">
+            <img src="img/logo.png" />
+          </a>
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 for">
+            <div class="sel">
+              <select class=" user" id="validationCustom04" required>
+                <option selected disabled value="">全部</option>
+                <option>...</option>
+              </select>
+              <input type="search" class=" form-control-dark user" placeholder="请输入需要查询的内容.." aria-label="Search">
+              <button type="button" class="btn btn-warning">
+                <trans oldtip="Sign-up" newtip="搜素">搜索</trans>
+              </button>
+            </div>
+            <input type="search" class="form-control form-control-dark user d-none d-md-inline-block"
+              placeholder="输入用户名" aria-label="Search">
+            <input type="search" class="form-control form-control-dark user d-none d-md-inline-block" placeholder="输入密码"
+              aria-label="Search">
+            <button type="button" class="btn btn-warning">
+              <trans oldtip="Sign-up" newtip="登录">登录</trans>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="top bg-dark">
+        <nav class="navbar-expand-lg navbar-dark  container" aria-label="Fifth navbar example">
+          <div class="container-fluid">
+            <a href="/" class="logo d-sm-none">
+              <img src="img/logo.png" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05"
+              aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+              <ul class="navbar-nav row mb-2 mb-lg-0 nav">
+                <li class="nav-item col"><a class="nav-link active" aria-current="page" href="#">首页</a></li>
+                <li class="nav-item col"><a class="nav-link" href="#">新闻资讯</a></li>
+                <li class="nav-item col"><a class="nav-link" href="#">专题专栏</a></li>
+                <li class="nav-item col"><a class="nav-link" href="#">学术成果</a></li>
+                <li class="nav-item col"><a class="nav-link" href="#">分支机构</a></li>
+                <li class="nav-item col"><a class="nav-link" href="#">会员专区</a></li>
+                <li class="nav-item col"><a class="nav-link" href="#">电子阅览室</a></li>
+                <li class="nav-item col"><a class="nav-link" href="#">关于我们</a></li>
+              </ul>
+              <div class="nav-item dropdown">
+                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <ul class="banner">
+      <li><a href="#"><img src="img/banner.png"></a></li>
+    </ul>
+    <div class="container zixun d-none d-md-block">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-6 bans wow slideInLeft">
+            <div class="swiper mySwiper">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide"><a href="#"><img src="img/zixun_01.png" class="img-fluid rounded-start"
+                      alt="..."></a></li>
+                <li class="swiper-slide"><a href="#"><img src="img/zixun_02.png" class="img-fluid rounded-start"
+                      alt="..."></a></li>
+                <li class="swiper-slide"><a href="#"><img src="img/zixun_03.png" class="img-fluid rounded-start"
+                      alt="..."></a></li>
+                <li class="swiper-slide"><a href="#"><img src="img/zixun_04.png" class="img-fluid rounded-start"
+                      alt="..."></a></li>
+              </ul>
+              <div class="swiper-pagination ye"></div>
+            </div>
+            <div class="bngs_bg">
+              <a href="#">
+                <ul>
+                  <li>
+                    <p>省博物馆召开第一届第二次会员代表大会暨..</p>
+                  </li>
+                  <li style="display: none;">
+                    <p>第一届第二次会员代表大会暨..</p>
+                  </li>
+                  <li style="display: none;">
+                    <p>馆召开第一届第二次会员代表大会暨..</p>
+                  </li>
+                  <li style="display: none;">
+                    <p>会员代表大会暨..</p>
+                  </li>
+                </ul>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 zixuns wow slideInRight">
+            <div class="card-body">
+              <h5 class="card-title">最新资讯</h5>
+              <ul class="zixun_tab clearfix row">
+                <li class="col-md"><a href="#" class="atc">展览新闻</a></li>
+                <li class="col-md"><a href="#">通知公告</a></li>
+                <li class="col-md"><a href="#">资料快讯</a></li>
+              </ul>
+              <ul class="zixun_con ">
+                <li>
+                  <ol>
+                    <li> <a href="#"><small class="text-muted">省博物馆召开第一届第二次会员代表大会暨..</small></a></li>
+                    <li> <a href="#"><small class="text-muted">省博物馆秘书处赴长治开展博物馆调研座...</small></a></li>
+                    <li> <a href="#"><small class="text-muted">省博物馆第一届第二次理事长会在省城...</small></a></li>
+                    <li> <a href="#"><small class="text-muted">省博物馆社会教育专业委员会在晋祠博物馆..</small></a></li>
+                    <li> <a href="#"><small class="text-muted">关于缴纳协会2019年度会费通知...</small></a></li>
+                  </ol>
+                  <a href="#" class="details"><span>查看详情</span><i>→</i></a>
+                </li>
+                <li style="display: none;">
+                  <ol>
+                    <li> <a href="#"><small class="text-muted">关于缴纳协会2019年度会费通知...</small></a></li>
+                    <li> <a href="#"><small class="text-muted">省博物馆秘书处赴长治开展博物馆调研座...</small></a></li>
+                    <li> <a href="#"><small class="text-muted">省博物馆第一届第二次理事长会在省城...</small></a></li>
+                    <li> <a href="#"><small class="text-muted">省博物馆社会教育专业委员会在晋祠博物馆..</small></a></li>
+                    <li> <a href="#"><small class="text-muted">关于缴纳协会2019年度会费通知...</small></a></li>
+                  </ol>
+                  <a href="#" class="details"><span>查看详情</span><i>→</i></a>
+                </li>
+                <li style="display: none;">
+                  <ol>
+                    <li> <a href="#"><small class="text-muted">召开第一届第二次会员代表大会暨..</small></a></li>
+                    <li> <a href="#"><small class="text-muted">省博物馆秘书处赴长治开展博物馆调研座...</small></a></li>
+                    <li> <a href="#"><small class="text-muted">省博物馆第一届第二次理事长会在省城...</small></a></li>
+                    <li> <a href="#"><small class="text-muted">省博物馆社会教育专业委员会在晋祠博物馆..</small></a></li>
+                    <li> <a href="#"><small class="text-muted">关于缴纳协会2019年度会费通知...</small></a></li>
+                  </ol>
+                  <a href="#" class="details"><span>查看详情</span><i>→</i></a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="MaxContent">
+      <div class="exhibition container">
+        <div class="title d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start wow bounceInUp">
+          <div class="title_text d-flex align-items-center me-lg-auto mb-2 mb-lg-0"><span>ACTIVITY /</span>&nbsp;展览与活动
+          </div>
+          <a href="#" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 for">查看更多&gt;&gt;</a>
+        </div>
+        <div class="row row-cols-2 row-cols-md-4 g-4">
+          <div class="col wow bounceInUp " data-wow-delay="0s">
+            <a class="exh_list card h-100 " href="#">
+              <img src="img/zhanhui_01.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">活动预告</h5>
+                <p class="card-text">《多彩酒俗 醉美生活-贵州少数民族酒俗展》首站将于同博启幕</p>
+              </div>
+              <span></span>
+            </a>
+          </div>
+          <div class="col wow bounceInUp" data-wow-delay="0.3s">
+            <a class="exh_list card h-100 " href="#">
+              <img src="img/zhanhui_02.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">最新讲座</h5>
+                <p class="card-text">山西博物院“晋界”讲坛-博物馆探索</p>
+              </div>
+              <span></span>
+            </a>
+          </div>
+          <div class="col wow bounceInUp" data-wow-delay="0.6s">
+            <a class="exh_list card h-100 " href="#">
+              <img src="img/zhanhui_03.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">展览信息</h5>
+                <p class="card-text">壁上乾坤山西北朝墓葬壁画艺术展</p>
+              </div>
+              <span></span>
+            </a>
+          </div>
+          <div class="col wow bounceInUp" data-wow-delay="0.9s">
+            <a class="exh_list card h-100 " href="#">
+              <img src="img/zhanhui_04.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">社会教育</h5>
+                <p class="card-text">山西地质博物馆—采矿小创客</p>
+              </div>
+              <span></span>
+            </a>
+          </div>
+      
+        </div>
+      </div>
+    </div>
+    
+    <!-- 学术研究 -->
+    <div class="learning d-none d-md-block">
+      <div class="container">
+        <div
+          class="title d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start wow bounceInUp">
+          <div class="title_text d-flex align-items-center me-lg-auto mb-2 mb-lg-0"><span>ACTIVITY /</span>&nbsp;学术研究
+          </div>
+          <a href="#" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 for">查看更多&gt;&gt;</a>
+        </div>
+        <div class="row">
+          <div class="col-md-9">
+            <div class="cholar clearfix  wow slideInLeft">
+              <h3 style="font-weight: 800;">专家学者</h3>
+              <ul class=" row clearfix">
+                <li class="col-md wow swing" data-wow-duration="5s"><a href="#"><img
+                      src="img/xuezhe_07.png" /><span>安来顺</span></a></li>
+                <li class="col-md wow swing" data-wow-duration="5s"><a href="#"><img
+                      src="img/xuezhe_07.png" /><span>刘玉珠</span></a></li>
+                <li class="col-md wow swing" data-wow-duration="5s"><a href="#"><img
+                      src="img/xuezhe_07.png" /><span>单霁翔</span></a></li>
+                <li class="col-md wow swing" data-wow-duration="5s"><a href="#"><img
+                      src="img/xuezhe_07.png" /><span>黄晓明</span></a></li>
+                <li class="col-md wow swing" data-wow-duration="5s"><a href="#"><img
+                      src="img/xuezhe_07.png" /><span>袁建平</span></a></li>
+                <li class="col-md wow swing" data-wow-duration="5s"><a href="#"><img
+                      src="img/xuezhe_07.png" /><span>喻燕姣</span></a></li>
+                <li class="col-md wow swing" data-wow-duration="5s"><a href="#"><img
+                      src="img/xuezhe_07.png" /><span>游振群</span></a></li>
+              </ul>
+            </div>
+            <div class="meeting card mb-3  wow slideInLeft">
+              <div class="row g-0">
+                <div class="col-md-7">
+                  <img src="img/huiyi_01.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-5">
+                  <div class="mee_body card-body">
+                    <h5 class="card-title">学术会议</h5>
+                    <ul>
+                      <li><a href="#">汉唐墓葬壁画艺术国际学术..</a></li>
+                      <li><a href="#">山西博物院举办山西古陶瓷国际.. </a></li>
+                      <li><a href="#">中国文物保护技术协会第十次.. </a></li>
+                      <li><a href="#">汉唐墓葬壁画艺术国际学术..</a></li>
+                      <li><a href="#">山西博物院举办山西古陶瓷国际.. </a></li>
+                      <li><a href="#">中国文物保护技术协会第十次.. </a></li>
+                    </ul>
+                    <a href="#">查看更多&gt;&gt;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wenbo col-md-3"></div>
+        </div>
+      </div>
+    </div>
+    <div class="special">
+      <div class="container">
+        <ul class="row row-cols-2 row-cols-md-4 g-4">
+          <li class="col">
+            <a class="card h-100" href="#">
+              <img src="img/zhuanti_01.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">政策法规</h5>
+              </div>
+            </a>
+          </li>
+          <li class="col">
+            <a class="card h-100" href="#">
+              <img src="img/zhuanti_02.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">文物知识</h5>
+              </div>
+            </a>
+          </li>
+          <li class="col">
+            <a class="card h-100" href="#">
+              <img src="img/zhuanti_a03.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #721117;">专题专栏</h5>
+              </div>
+            </a>
+          </li>
+          <li class="col">
+            <a class="card h-100" href="#">
+              <img src="img/zhuanti_04.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">学术成果</h5>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="Links">
+      <div class="container">
+        <div class="title d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <div class="title_text d-flex align-items-center me-lg-auto mb-2 mb-lg-0"><span>ACTIVITY /</span>&nbsp;友情链接
+          </div>
+          <a href="#" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 for">查看更多&gt;&gt;</a>
+        </div>
+        <form class="layui-form">
+          <ul class="row">
+            <li class="col-md wow bounceInUp" data-wow-delay="0.2s">
+              <select class="form-select">
+                <option>国际及国家级协会</option>
+                <option value="1">国际及国家级协会</option>
+                <option value="2">国际及国家级协会</option>
+                <option value="3">国际及国家级协会</option>
+              </select>
+            </li>
+            <li class="col-md wow bounceInUp" data-wow-delay="0.3s">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>国家及省级文物局</option>
+                <option value="1">国家及省级文物局</option>
+                <option value="2">国家及省级文物局</option>
+                <option value="3">国家及省级文物局</option>
+              </select>
+            </li>
+            <li class="col-md wow bounceInUp" data-wow-delay="0.4s">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>国家及省级博协 </option>
+                <option value="1">国家及省级博协</option>
+                <option value="2">国家及省级博协</option>
+                <option value="3">国家及省级博协</option>
+              </select>
+            </li>
+            <li class="col-md wow bounceInUp" data-wow-delay="0.5s">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>省外博物馆</option>
+                <option value="1">省外博物馆</option>
+                <option value="2">省外博物馆</option>
+                <option value="3">省外博物馆</option>
+              </select>
+            </li>
+            <li class="col-md wow bounceInUp" data-wow-delay="0.6s">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>山西省会员单位</option>
+                <option value="1">山西省会员单位</option>
+                <option value="2">山西省会员单位</option>
+                <option value="3">山西省会员单位</option>
+              </select>
+            </li>
+
+          </ul>
+
+        </form>
+      </div>
+    </div>
+    </section>
+    <footer>
+      <div class="container">
+        <ul class="nav justify-content-center">
+          <li class="nav-item"><a class="nav-link" aria-current="page" href="#">首页</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">新闻资讯</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">专题专栏</a></li>
+          <li class="nav-item"><a class="nav-link " href="#">学术成果</a></li>
+          <li class="nav-item"><a class="nav-link " href="#">分支机构</a></li>
+          <li class="nav-item"><a class="nav-link " href="#">会员专区</a></li>
+          <li class="nav-item"><a class="nav-link " href="#">电子阅览室</a></li>
+          <li class="nav-item"><a class="nav-link " href="#">关于我们</a></li>
+        </ul>
+        <p>版权声明 隐私与安全声明 总浏览量：243200</p>
+        <p>版权所有@博物馆协会2020 晋ICP备14005632号 技术支持：XXXXXXXXX技术有限公司</p>
+      </div>
+    </footer>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
